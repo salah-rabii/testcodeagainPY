@@ -2,13 +2,11 @@
 
 def palindrome(ch):
     
-    ch = ch.replace(" ","").lower()
-   
+    ch = ch.replace(" ","").lower()  
     
     
     i = 0
     j = len(ch) - 1
-    print(j)
 
     while i < j:
         if ch[i] != ch[j]:  
@@ -27,4 +25,5 @@ def main():
     else:
         print(f"{chaine} n'est pas un palindrome.")
 
-main()
+if __name__ == "__main__":
+    main()
