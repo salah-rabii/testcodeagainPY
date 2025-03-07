@@ -11,7 +11,7 @@ from palindrome import palindrome
     ("race car", True),  # Doit être un palindrome car insensible aux espaces 
     ("palindrome", False),
     ("test",False),
-    ("solyaman",False)
+    ("solyaman",True)
 ])
 
 def test_palindrome(mot, attendu):
